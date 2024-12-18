@@ -43,12 +43,19 @@ body {
 }
 
 /* -----navbar----- */
+header {
+    background: #FFF2E5;
+
+}
+
 .navbar {
+    background: #FFF2E5;
     display: flex;
-    margin-top: 26px;
+    padding-top: 26px;
     align-items: center;
     justify-content: space-between;
     height: 50px;
+    padding-bottom: 50px;
 }
 
 .navbar__list {
@@ -83,4 +90,106 @@ body {
 
 .navbar___actions_Sign-Up :hover {
     opacity: 0.5;
+}
+
+/* -----hero----- */
+.hero {
+    background: #FFF2E5;
+    padding-top: 50px;
+}
+
+.hero__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__img {
+    position: relative;
+    height: 580px;
+}
+
+.hero__img .img-big {
+    /* position: absolute; */
+    width: 388px;
+    height: 488px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
+
+.hero__img .img-smaill {
+    position: absolute;
+    width: 186px;
+    height: 244px;
+    top: 478px;
+    right: -90px;
+    top: 302px;
+    object-fit: cover;
+}
+
+.hero__img-content-list {
+    position: absolute;
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    right: 50px;
+    top: 400px;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+
+.desc_img {
+    color: #181E52;
+    font-family: "Sora";
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.content__img img {
+    border-radius: 10px;
+
+}
+
+.content__item {
+    display: flex;
+    gap: 9px;
+    margin-left: 14px;
+    align-items: center;
+}
+
+.content__item:first-child {
+    margin-top: 18px;
+    margin-bottom: 40px;
+}
+
+.hero__info {
+    width: 517px;
+}
+
+.hero__info .title {
+    color: #000958;
+    font-family: "Sora";
+    font-size: 6.6rem;
+    font-weight: 800;
+    line-height: 76px;
+}
+
+.hero__info .desc {
+    color: #656689;
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 30px;
+    width: 391px;
+    margin-top: 24px;
+}
+.hero__action{
+    margin-top: 38px;
+}
+.Book__a__Meet{
+    background: #ff5b2e;
+    width: 189px;
 }
