@@ -1239,7 +1239,7 @@ header {
 .footer__right-group {
     display: flex;
     gap: 137px;
-    align-items: center ;
+    align-items: center;
 }
 
 .right__group-list .right__group-item:last-child {
